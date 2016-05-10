@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Back In Track
+    %link{:href => "https://fonts.googleapis.com/css?family=Raleway:400,500,300|Josefin+Sans", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "https://cdn.jsdelivr.net/instantsearch.js/1.5.0/instantsearch.min.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "css/styles.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+    .search-wrapper
+      .title
+        Back-in Track
+      .subtitle
+        Find and play backing tracks
+      #search-box
+      #hits-container
+      #pagination-container
+      #player
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"}
+    %script{:src => "https://cdn.jsdelivr.net/instantsearch.js/1.5.0/instantsearch.min.js"}
+    %script{:src => "javascript/player.js"}
+    %script{:src => "javascript/search.js"}

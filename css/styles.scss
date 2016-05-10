@@ -1,0 +1,97 @@
+body, html
+{
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#search-box
+{
+  width: 50%;
+  margin: 0 auto;
+  input
+  {
+    height: 40px;
+    font-size: 28px;
+    width: 100%;
+  }
+}
+.search-wrapper
+{
+  background: #900C0C;
+  padding-top: 5%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: "Raleway";
+}
+#hits-container
+{
+  width: 75%;
+  margin: 0 auto;
+  .ais-hits
+  {
+    padding: 30px;
+    padding-top: 50px;
+    .ais-hits--item
+    {
+      width: 25%;
+      text-align: center;
+      display: inline-block;
+      margin: 1% 2.7%;
+      border: 2px solid;
+      border-radius: 5px;
+      padding: 20px 10px;
+      background: #3E3B6B;
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); 
+      height: 120px;
+      vertical-align: top;
+      position: relative;
+      cursor: pointer;
+      .key
+      {
+        font-size: 36px;
+        padding: 5px;
+      }
+      .name
+      {
+        height: 60%;
+      }
+      .over
+      {
+        // display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(256,256,256,0.1);
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .black-font
+    {
+      color: black;
+    }
+  }
+}
+#pagination-container
+{
+  display: none;
+}
+#player
+{
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+.title
+{
+  font-family: 'Josefin Sans';
+  text-align: center;
+  font-size: 70px
+}
+.subtitle
+{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 35px;
+}
